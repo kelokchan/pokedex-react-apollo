@@ -1,0 +1,21 @@
+{
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "parser": "babel-eslint", // needed to make babel stuff work properly
+  "extends": "airbnb",
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/destructuring-assignment": 0,
+    "react/prop-types": 0,
+    "import/no-unresolved": 0,
+    "no-underscore-dangle": 0,
+    "arrow-parens": 0,
+    "no-use-before-define": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "object-curly-newline": 0
+  }
+}
