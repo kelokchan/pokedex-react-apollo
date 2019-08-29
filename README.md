@@ -11,3 +11,8 @@ A simple Pokedex that displays all first-gen Pokemons and their details
 - apollo-link-http
 - graphql
 - graphql-tag
+
+## Screenshots
+<!-- ![Listing](./images/1.png =500x120) -->
+<img src="./images/1.png" width="300">
+<img src="./images/2.png" width="300">
