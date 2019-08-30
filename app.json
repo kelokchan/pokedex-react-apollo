@@ -26,7 +26,7 @@
     "ios": {
       "supportsTablet": true
     },
-    "description": "A really basic Gen-1 Pokedex app written in React Native with Apollo Client. Doesn't do much really.",
+    "description": "A basic Gen-1 Pokedex app written in React Native with Apollo Client to practice GraphQL. Other than that this app doesn't do much really.",
     "githubUrl": "https://github.com/kelokchan/pokedex-react-apollo"
   }
 }

@@ -37,7 +37,7 @@ class PokemonsScreens extends Component {
 
   keyExtractor = (item, index) => index.toString();
 
-  getData = pokemons => pokemons.filter(pokemon => pokemon.name.includes(this.state.search));
+  getData = pokemons => pokemons.filter(pokemon => pokemon.name.toLowerCase().includes(this.state.search.toLowerCase()));
 
   renderItem = ({ item: { name, image, id } }) => (
     <ListItem
